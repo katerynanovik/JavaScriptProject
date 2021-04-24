@@ -1,10 +1,10 @@
 <html>
-   <div class="thumbnail col-sm-6 col-md-4">
-       <img class="box" src="<%= box.icon %>" >
+   <div class="thumbnail col-sm-6 col-md-4" id="Box<%=box.id%>">
+       <img class="box" src="<%= box.img %>" >
        <div class="caption"> 
            <p class="textName"><%= box.title %></p> 
            <p class="description"><%= box.description %></p> 
-           <p class="price"><%= box.price %></p>
+           <p class="price"><%= box.price %> грн</p>
         </div>
         <div class="BuyAndDetailsButtons"> 
             <button class="details">Детальніше</button> 

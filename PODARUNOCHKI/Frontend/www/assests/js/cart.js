@@ -13,3 +13,18 @@ $("#cartIcon").click(function () {
         $('body').css('overflow', 'auto');
     }
 });
+
+$("#shownCart").click(function()  {
+    
+
+    if (event.target==event.currentTarget){
+        cartIsOpened = false;
+        $('#BuyMenu').css('display', 'none');
+        $('#shownCart').css('display', 'none');
+        $('body').css('overflow', 'auto');
+    }
+    else{
+
+        return;
+    }
+})

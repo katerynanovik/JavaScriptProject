@@ -30,7 +30,7 @@ function backendPost(url, data, callback) {
 
 
 exports.getBoxList = function (callback) {
-    backendGet("/api/get-pizza-list/", callback);
+    backendGet("/api/get-box-list/", callback);
 };
 
 exports.createOrder = function (order_info, callback) {

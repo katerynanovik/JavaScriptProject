@@ -31,7 +31,7 @@ function backendPost(url, data, callback) {
 
 
 exports.getBoxList = function (callback) {
-    backendGet("/api/get-pizza-list/", callback);
+    backendGet("/api/get-box-list/", callback);
 };
 
 exports.createOrder = function (order_info, callback) {
@@ -70,7 +70,7 @@ var box_info = [
         id: 4,
         class: 'Him',
         title: 'Набір для догляду',
-        img: 'Frontend/www/images/men.JPG',
+        img: 'assests/images/men.JPG',
         description: 'шампунь, гель для душу, крем для рук, бальзам після гоління, листівка',
         price: 359
     },
@@ -79,7 +79,7 @@ var box_info = [
         id: 5,
         class: 'Him',
         title: 'Приємні дрібниці',
-        img: 'Frontend/www/images/formen.JPG',
+        img: 'assests/images/formen.JPG',
         description: 'смачний фруктовий чай та кава, фляжка та смаколики',
         price: 310
     },
@@ -88,7 +88,7 @@ var box_info = [
         id: 6,
         class: 'Him',
         title: 'Елегантний',
-        img: 'Frontend/www/images/forhim.JPG',
+        img: 'assests/images/forhim.JPG',
         description: 'блокнот, смачний чай, цукерки, шоколад, горішки',
         price: 265
     },
@@ -97,7 +97,7 @@ var box_info = [
         id: 7,
         class: 'Her',
         title: 'Ідеально до 8 березня',
-        img: 'Frontend/www/images/box188march.JPG',
+        img: 'assests/images/box188march.JPG',
         description: 'листівка, пряник в вигляді вісьмірки, чашка та солоденьке',
         price: 279
     },
@@ -107,7 +107,7 @@ var box_info = [
         id: 8,
         class: 'Her',
         title: 'Рожеві приємності',
-        img: 'Frontend/www/images/forHer.JPG',
+        img: 'assests/images/forHer.JPG',
         description: 'зефір, шоколад, джем, цукерки, антисептик з ароматом троянди',
         price: 339
     },
@@ -116,7 +116,7 @@ var box_info = [
         id: 9,
         class: 'Her',
         title: 'Квітковий бокс',
-        img: 'Frontend/www/images/box5.JPG',
+        img: 'assests/images/box5.JPG',
         description: 'сіль для ванни, кокосове масло для тіла, букетик, листівка і солоденьке',
         price: 229
     },
@@ -125,7 +125,7 @@ var box_info = [
         id: 10,
         class: 'Sweeties',
         title: 'Бадьорий пакунок',
-        img: 'Frontend/www/images/box16.JPG',
+        img: 'assests/images/box16.JPG',
         description: 'кава, апельсиновий мармелад, склянка, горішки',
         price: 275
     },
@@ -134,7 +134,7 @@ var box_info = [
         id: 11,
         class: 'Sweeties',
         title: 'Для затишного вечора',
-        img: 'Frontend/www/images/box14.JPG',
+        img: 'assests/images/box14.JPG',
         description: 'какао, ванільний зефір, імбирне печиво, ніжні деталі',
         price: 140
     },
@@ -143,7 +143,7 @@ var box_info = [
         id: 12,
         class: 'Sweeties',
         title: 'Цінувачам кави',
-        img: 'Frontend/www/images/box11.JPG',
+        img: 'assests/images/box11.JPG',
         description: 'заварник для кави, чашка з блюдечком, кава, шоколадні цукерки',
         price: 390
     },
@@ -152,7 +152,7 @@ var box_info = [
         id: 13,
         class: 'NewYear',
         title: 'Набір для глінтвейну',
-        img: 'Frontend/www/images/newYear.JPG',
+        img: 'assests/images/newYear.JPG',
         description: 'Спеції для глінтвейну, червоне сухе вино, класична склянка , смаколики, листівка',
         price: 695
     },
@@ -161,7 +161,7 @@ var box_info = [
         id: 14,
         class: 'NewYear',
         title: 'Затишний подарунок',
-        img: 'Frontend/www/images/box10newyear.JPG',
+        img: 'assests/images/box10newyear.JPG',
         description: 'Шкарпетки, пряник Дід Мороз, упаковка какао, солодощі, дерев’яна ялинка',
         price: 240
     },
@@ -170,7 +170,7 @@ var box_info = [
         id: 15,
         class: 'NewYear',
         title: 'Новорічні солодощі',
-        img: 'Frontend/www/images/box12.JPG',
+        img: 'assests/images/box12.JPG',
         description: 'Баночки з трьома видами джему, цукерки, шоколад, пряники-зірочки',
         price: 329
     },
@@ -179,7 +179,7 @@ var box_info = [
         id: 16,
         class: 'SaintValentine',
         title: 'Для солодкоїжок',
-        img: 'Frontend/www/images/love.JPG',
+        img: 'assests/images/love.JPG',
         description: 'упаковка в вигляді сердечка, жуйки, шоколад, листівка',
         price: 369
     },
@@ -188,7 +188,7 @@ var box_info = [
         id: 17,
         class: 'SaintValentine',
         title: 'Ніжний подарунок',
-        img: 'Frontend/www/images/box3.JPG',
+        img: 'assests/images/box3.JPG',
         description: 'дерев’яний бокс, шампаньске, свічка, букетик, пряник, цукерки, чай і листівка',
         price: '440 грн'
     },
@@ -197,7 +197,7 @@ var box_info = [
         id: 18,
         class: 'SaintValentine',
         title: 'Розкішний сюрприз',
-        img: 'Frontend/www/images/box9.JPG',
+        img: 'assests/images/box9.JPG',
         description: 'квіточки, свічка, червоне вино, сухофрукти, карамель',
         price: 489
     },
@@ -209,9 +209,9 @@ module.exports = box_info;
 
 var ejs = require('ejs');
 
-exports.BoxChoice_OneItem = ejs.compile("<html>\n   <div class=\"thumbnail col-sm-6 col-md-4\">\n       <img class=\"box\" src=\"<%= box.icon %>\" >\n       <div class=\"caption\"> \n           <p class=\"textName\"><%= box.title %></p> \n           <p class=\"description\"><%= box.description %></p> \n           <p class=\"price\"><%= box.price %></p>\n        </div>\n        <div class=\"BuyAndDetailsButtons\"> \n            <button class=\"details\">Детальніше</button> \n            <button class=\"buy\">В кошик</button>\n        </div> \n    </div>\n</html>");
+exports.BoxChoice_OneItem = ejs.compile("<html>\n   <div class=\"thumbnail col-sm-6 col-md-4\" id=\"Box<%=box.id%>\">\n       <img class=\"box\" src=\"<%= box.img %>\" >\n       <div class=\"caption\"> \n           <p class=\"textName\"><%= box.title %></p> \n           <p class=\"description\"><%= box.description %></p> \n           <p class=\"price\"><%= box.price %> грн</p>\n        </div>\n        <div class=\"BuyAndDetailsButtons\"> \n            <button class=\"details\">Детальніше</button> \n            <button class=\"buy\">В кошик</button>\n        </div> \n    </div>\n</html>");
 
-exports.PizzaCart_OneItem = ejs.compile("");
+exports.BoxCart_OneItem = ejs.compile("    <div class=boughtRow>\n            <h3 id='bought'><%= cart_item.box.title %> </h3>\n            <div class='boughtBlock'>\n            <img class='BoughtImg' src='<%= cart_item.box.img %>' >\n            <span class='price'><%= cart_item.box.price*cart_item.quantity %></span><span> грн.<span>\n            <button data-tooltip='toolTip' class='minus'>-</button> <label class='Labelamount'>\n            <div class='DivCount'><%= cart_item.quantity %></div>\n                </label> <button data-tooltip='toolTip' class='circle plus'>+</button>\n            <button data-tooltip='toolTip' class='X'>x</button>\n                </div>\n    </div>");
 },{"ejs":8}],4:[function(require,module,exports){
 var Templates = require('../Templates');
 
@@ -222,7 +222,7 @@ var $cart = $('#cart');
 
 function addToCart(box){
     var contains=false;
-    for(var i=0;i>Cart.length;i++){
+    for(var i=0;i<Cart.length;i++){
         if(Cart[i].box==box){
             contains=true;
             Cart[i].quantity++;
@@ -241,8 +241,19 @@ function addToCart(box){
 
 }
 
+function removeFromCart(cart_item) {
+    
+
+    var ind = Cart.indexOf(cart_item);
+    Cart.splice(ind, 1);
+    
+    updateCart();
+}
+
+
 
 function updateCart() {
+    $('#countBougthItems').html(Cart.length);
     //Функція викликається при зміні вмісту кошика
     //Тут можна наприклад показати оновлений кошик на екрані та зберегти вміт кошика в Local Storage
 
@@ -251,18 +262,18 @@ function updateCart() {
 
     //Онволення однієї піци
     function showOnePizzaInCart(cart_item) {
-        var html_code = Templates.PizzaCart_OneItem(cart_item);
+        var html_code = Templates.BoxCart_OneItem({cart_item: cart_item});
 
         var $node = $(html_code);
 
-        $node.find(".plusB").click(function () {
+        $node.find(".plus").click(function () {
             //Збільшуємо кількість замовлених піц
             cart_item.quantity += 1;
             $node.find(".price").html("");
             //Оновлюємо відображення
             updateCart();
         });
-        $node.find(".minusB").click(function () {
+        $node.find(".minus").click(function () {
             //Збільшуємо кількість замовлених піц
             if (cart_item.quantity > 1) {
                 cart_item.quantity -= 1;
@@ -273,29 +284,70 @@ function updateCart() {
             updateCart();
         });
 
-        $node.find(".deleteButton").click(function () {
+        $node.find(".X").click(function () {
             removeFromCart(cart_item);
         });
 
         $cart.append($node);
     }
-    basil.set("cartSt", Cart);
-    updatePriceAndOrder();
+    
     Cart.forEach(showOnePizzaInCart);
 }
 
 
 
-exports.Cart=Cart;
-},{"../Templates":3}],5:[function(require,module,exports){
-function initialiseMenu(){
+exports.removeFromCart = removeFromCart;
+exports.addToCart = addToCart;
 
-}
+exports.Cart=Cart;
+
+},{"../Templates":3}],5:[function(require,module,exports){
+
 
 var Templates = require('../Templates');
 var BoxCart = require('./BoxCart');
 const API = require("../API");
-var Pizza_List = API.getPizzaList(initPizzaList);
+var Pizza_List = API.getBoxList(initBoxList);
+
+
+function initialiseMenu() {
+    API.getBoxList(initBoxList);
+}
+
+function initBoxList(error, data) {
+    if (error == null) {
+        Pizza_List = data;
+        showBoxList(Pizza_List);
+
+    }
+}
+
+
+function showBoxList(list) {
+   
+    function nullify(box){
+        $('#' + box.class).html('');
+    }
+    list.forEach(nullify);
+    
+    function showOneBox(box) {
+        var html_code = Templates.BoxChoice_OneItem({ box: box });
+
+        var $node = $(html_code);
+
+        $node.find(".buy").click(function () {
+            BoxCart.addToCart(box);
+        });
+       
+
+        $('#'+box.class).append($node);
+    }
+    
+    list.forEach(showOneBox);
+}
+
+
+
 
 
 exports.initialiseMenu=initialiseMenu;
